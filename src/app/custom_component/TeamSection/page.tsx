@@ -47,7 +47,7 @@ const TeamSection: React.FC = () => {
                 src={member.imageSrc}
                 alt={member.name}
                 width={144} 
-                height={144} 
+                height={180} 
                 className="object-cover mb-4 rounded-full"
               />
               <h3 className="text-lg font-semibold mb-2 text-white bg-[#4a6480] hover:bg-[#3b5065] inline-block px-6 py-2 rounded-md">
