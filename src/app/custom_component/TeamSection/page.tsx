@@ -1,5 +1,6 @@
 'use client';
 import React from 'react';
+import img from "@/../../public/img 4.jpeg"
 
 interface TeamMember {
   name: string;
@@ -11,17 +12,17 @@ const teamMembers: TeamMember[] = [
   {
     name: 'Danial Jain',
     role: 'Mechanical Engineering',
-    imageSrc: '/image.png', 
+    imageSrc: '/img 4.jpeg', 
   },
   {
     name: 'Margorie Hych',
     role: 'Testing Manager',
-    imageSrc: '/image.png', 
+    imageSrc: '/img 4.jpeg', 
   },
   {
-    name: 'Cheryl Ray',
+    name: 'Cheryl Ray Lam',
     role: 'Interior Designer',
-    imageSrc: '/image.png', 
+    imageSrc: '/img 4.jpeg', 
   },
 ];
 
@@ -45,7 +46,7 @@ const TeamSection: React.FC = () => {
               <img
                 src={member.imageSrc}
                 alt={member.name}
-                className="w-36 h-36 object-cover mb-4 rounded-full mx-auto" 
+                className="w-36 h-50 object-cover mb-4 rounded-full mx-auto" 
               />
               <h3 className="text-lg font-semibold mb-2 text-white bg-[#4a6480] hover:bg-[#3b5065] inline-block px-6 py-2 rounded-md">
                 {member.name}
