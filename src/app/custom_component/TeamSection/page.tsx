@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import img from "@/../../public/img 4.jpeg"
+import Image from 'next/image'; 
 
 interface TeamMember {
   name: string;
@@ -12,17 +12,17 @@ const teamMembers: TeamMember[] = [
   {
     name: 'Danial Jain',
     role: 'Mechanical Engineering',
-    imageSrc: '/img 4.jpeg', 
+    imageSrc: '/img.jpeg', 
   },
   {
     name: 'Margorie Hych',
     role: 'Testing Manager',
-    imageSrc: '/img 4.jpeg', 
+    imageSrc: '/img.jpeg',
   },
   {
     name: 'Cheryl Ray Lam',
     role: 'Interior Designer',
-    imageSrc: '/img 4.jpeg', 
+    imageSrc: '/img.jpeg',
   },
 ];
 
@@ -43,10 +43,12 @@ const TeamSection: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"> 
           {teamMembers.map((member) => (
             <div key={member.name} className="text-center bg-gray-100 p-8 md:p-12 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 max-w-sm mx-auto"> 
-              <img
+              <Image
                 src={member.imageSrc}
                 alt={member.name}
-                className="w-36 h-50 object-cover mb-4 rounded-full mx-auto" 
+                width={144} 
+                height={144} 
+                className="object-cover mb-4 rounded-full"
               />
               <h3 className="text-lg font-semibold mb-2 text-white bg-[#4a6480] hover:bg-[#3b5065] inline-block px-6 py-2 rounded-md">
                 {member.name}
