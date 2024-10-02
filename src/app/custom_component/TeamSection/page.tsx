@@ -12,17 +12,17 @@ const teamMembers: TeamMember[] = [
   {
     name: 'Danial Jain',
     role: 'Mechanical Engineering',
-    imageSrc: '/img.jpeg', 
+    imageSrc: '/image.png', 
   },
   {
     name: 'Margorie Hych',
     role: 'Testing Manager',
-    imageSrc: '/img.jpeg',
+    imageSrc: '/image.png',
   },
   {
     name: 'Cheryl Ray Lam',
     role: 'Interior Designer',
-    imageSrc: '/img.jpeg',
+    imageSrc: '/image.png',
   },
 ];
 
