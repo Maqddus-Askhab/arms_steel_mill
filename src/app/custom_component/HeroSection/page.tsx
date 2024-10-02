@@ -7,16 +7,16 @@ const HeroSlider = () => {
   const slides = [
     {
       id: 1,
-      title: 'LOREM IPSUM',
-      description: 'Consectetur Adipiscing',
+      title: 'Steel That Builds Tomorrow',
+      description: 'High-quality steel designed to meet the demands of future infrastructure and technology.',
       buttonLabel: 'Contact Us',
       imageUrl: '/image.png' 
     },
     {
       id: 2,
-      title: 'INNOVATIVE SOLUTIONS',
-      description: 'Sed do eiusmod tempor incididunt',
-      buttonLabel: 'Get a Quote',
+      title: 'INNOVATIVE SOLUTIONS BY ARMS STEEL',
+      description: 'Pushing the boundaries of steel technology to create stronger, more sustainable materials.t',
+      buttonLabel: 'Contact Us',
       imageUrl: '/image.png' 
     },
   ];
